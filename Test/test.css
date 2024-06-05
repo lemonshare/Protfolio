@@ -1,0 +1,253 @@
+/* Global */
+
+*{
+    letter-spacing: 1.5px;
+    /* font-family: "Belanosima", sans-serif; */
+    font-family: "Gantari", sans-serif;
+    
+}
+
+#spartanfont{
+    font-family: "League Spartan", sans-serif;
+}
+
+
+/* Body starts here */
+
+#bodybac1{
+    background-color: #02343F;
+     color: #F0EDCC;
+}
+
+#bodybac2 , #bodybac3 , #bodybac4, #bodybac5, #bodybac6{
+    background-color: #F0EDCC;
+    color: #02343F;
+}
+
+.slidetext{
+    text-align: center;
+    padding: 320px;
+    letter-spacing: 1.5px;
+}
+
+.slidetext h1{
+    font-family: "Jersey 10", sans-serif;  
+}
+
+.slidetext h1 img{
+    width: 80px;   
+}
+
+.slidetext h2{
+    font-size: 18px ;
+}
+
+
+.headerscrol{
+    padding: 40px;
+    text-align: center;
+}
+
+.headscrol{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    font-size: 15px;
+    margin: 50px;
+    transition: 0.5s ease-out;
+}
+
+.headscrol:hover{
+    color: #F0EDCC;
+}
+
+.destext{
+    text-align: center;
+    padding: 120px;
+    border-radius: 5px;
+}
+
+.destext p{
+    font-size: 15px;
+}
+
+.abouttext{
+    text-align: center;
+    padding: 30px;
+}
+
+.box{
+     justify-content: center;
+    display: flex;
+    gap: 50px;
+    padding: 30px;
+}
+
+.box i{
+    gap: 10px;
+}
+
+.worktext{
+    text-align: center;
+    padding: 120px;
+}
+
+.achive{
+    text-align: center;
+    padding: 120px;
+}
+
+/* Body Ends here */
+
+/* Footer starts here */
+
+.foottext{
+    text-align: center;
+    padding: 80px;
+}
+
+.foottext h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Silkscreen", sans-serif;
+}
+
+
+
+/* Media query */
+
+/* Smaller Screen */
+@media (max-width: 768px) {
+
+    /* Global */
+    
+    .col-8{
+        width: 100%;
+    }
+
+    .col-12{
+        width: 100%;
+    }
+
+    /* Global end */
+
+    .slidetext {
+        padding: 320px 20px 370px;
+    }
+
+    .slidetext h1{
+        font-size: 20px;
+    }
+
+    .slidetext h2{
+        font-size: 10px;
+    }
+
+    .slidetext h1 img{
+        width: 40px;
+    }
+
+    .destext, .worktext, .achive {
+        padding: 60px 20px;
+    }
+    
+    .destext h4 , .abouttext h3, .worktext h3, .achive h3{
+        font-size: 17px;
+    }
+
+    .destext p , .abouttext p , .worktext p , .achive p {
+        font-size: 9px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .box i {
+        font-size: 15px;
+    }
+
+    .foottext{
+    padding: 0px;
+    margin: 25px;
+    }
+
+    .foottext h1 {
+        font-size: 10px;
+        
+    }
+}
+
+
+
+/* Larger Screen */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* Global */
+    
+    .col-8{
+        width: 100%;
+    }
+
+    .col-12{
+        width: 100%;
+    }
+
+    /* Global end */
+
+    .slidetext {
+        padding: 450px 20px 450px;
+    }
+
+    .slidetext h1 {
+        font-size: 35px;
+    }
+
+    .slidetext h2 {
+        font-size: 20px;
+    }
+
+    .slidetext h1 img{
+        width: 80px;
+    }
+
+    .destext, .worktext, .achive {
+        padding: 30px 20px;
+    }
+
+    .destext h4 , .abouttext h3, .worktext h3, .achive h3{
+        font-size: 27px;
+    }
+
+    .destext p , .abouttext p , .worktext p , .achive p {
+        font-size: 15px;
+    }
+
+    .box {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .box i {
+        font-size: 1.2rem;
+    }
+
+    .headerscrol {
+        padding: 20px;
+    }
+
+    .headscrol {
+        font-size: 12px;
+    }
+
+    .listing ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .foottext h1 {
+        font-size: 15px;
+    }
+}
+
